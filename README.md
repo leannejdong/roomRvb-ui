@@ -1,5 +1,7 @@
 # Room *emulator/reverb (80s digital)
 
+![Room-Reverb-Digital](qrs.png)
+
 ##
 Input/output: The user interface of the old school Simulator typically has an input section where you can select the audio file you want to process, and an output section where you can preview the processed sound.
 
