@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quantec QRS/L Room Simulator UI</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="reverb-section">
+      <h2>Reverb Settings</h2>
+      <label for="decay-time">Decay Time:</label>
+      <input type="range" id="decay-time" name="decay-time" min="0" max="10" value="5">
+      <label for="diffusion">Diffusion:</label>
+      <input type="range" id="diffusion" name="diffusion" min="0" max="10" value="5">
+      <label for="early-reflections">Early Reflections:</label>
+      <input type="range" id="early-reflections" name="early-reflections" min="0" max="10" value="5">
+      <label for="reverb-tail">Reverb Tail:</label>
+      <input type="range" id="reverb-tail" name="reverb-tail" min="0" max="10" value="5">
+    </div>
+    <div class="room-layout-section">
+      <h2>Room Layout</h2>
+      <label for="room-width">Room Width:</label>
+      <input type="number" id="room-width" name="room-width" value="10">
+      <label for="room-height">Room Height:</label>
+      <input type="number" id="room-height" name="room-height" value="8">
+      <label for="room-depth">Room Depth:</label>
+      <input type="number" id="room-depth" name="room-depth" value="12">
+    </div>
+  </body>
+</html>
